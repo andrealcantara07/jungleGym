@@ -34,7 +34,7 @@ class Pokemon {
   }
 
   display(){
-    let img= document.getElementById(this.name+"Img")
+    let img= document.getElementById(this.name+"Img");
     console.log(img);
     img.src = this.sprite;
     let nameEl= document.getElementById(this.name + "Name");
