@@ -1,8 +1,15 @@
 
 html{
-  background: url(forest4.jpg);
+  background: url(jungle4.gif);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: helvetica;
+  font-size: 24px;
+  font-weight: bold;
+}
+#logo img{
+position: relative;
+width: 300px;
 }
 #opacity {
   filter: opacity(100%);
@@ -24,12 +31,11 @@ box-shadow: #000000ab 5px;
   height:150px;
   background-color: white;
   border-radius: 50%;
-  border: 10px red groove;
+  border: 10px #29ab87 groove;
   position: relative;
   filter: opacity(100%);
   padding: 1px;
   box-shadow: 5px 5px 1px 1px #00000066;
-
 }
 #bigCircle{
   height: 500px;
@@ -37,56 +43,66 @@ box-shadow: #000000ab 5px;
   border-radius: 50%;
   background-color: red;
   position:absolute;
-  top: 80px;
+  top: 250px;
+  background-image: linear-gradient(#29ab87aa, #3b6064aa, #364958aa);
+
+
   left: 400px;
-  border: 10px groove black;
+  border: 10px #29ab87 groove;
 }
-
-
-
-
 #one{
   left: 140px;
   opacity: 1;
   animation: circleAround 4s;
 }
 #two{
-  left: 80px;
+  left: 60px;
   top: 45px;
   opacity: 1;
   animation: circleAround 4s;
  }
 #three{
   top: 90px;
-  left: 140px;
+  left: 105px;
   opacity: 1;
   animation: circleAround 4s;
  }
 #four{
-  bottom: 500px;
+  bottom: 510px;
   left: 735px;
   opacity: 1;
   animation: circleAround 4s;
  }
 #five{
-  bottom:250px;
+  bottom:255px;
   left: 735px;
   opacity: 1;
   animation: circleAround 4s;
 }
 #six{
-  bottom: 625px;
+  bottom: 635px;
   left: 795px;
   opacity: 1;
-    animation: circleAround 4s;
+  animation: circleAround 4s;
 }
+@keyframes circleAround{
+    0% {
+      transform: rotate(0deg);
+      opacity: 0.1;
+    }
+    100% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+  }
 
 .Rectangle{
   background-color: white;
   width: 150px;
   height: 50px;
-  border: 4px groove black;
+  border: 4px groove #222222;
   position: relative;
+  text-align: center;
 
 
 }
@@ -98,22 +114,22 @@ box-shadow: #000000ab 5px;
 #Ability{
   top: 215px;
   left: 80px;
-  background-color: orange;
+  background-color: #55828b;
 }
 #Health{
-  background-color: pink;
+  background-color: #3b6064;
   left:250px;
   top: 210px;
 }
 #Attack{
-  background-color: purple;
+  background-color: #29ab87;
   left: 250px;
   top: 100px;
 }
 #Defense{
   top: 95px;
   left: 80px;
-  background-color: black;
+  background-color: #364958;
 }
 #image img{
   width:150px;
@@ -124,7 +140,7 @@ box-shadow: #000000ab 5px;
   border: 4px groove white;
 }
 
-  img {
+  .circle img {
     background-color: black;
     border-radius: 50%;
     height: 150px;
@@ -159,8 +175,3 @@ box-shadow: #000000ab 5px;
     width: 150px;
     object-fit: contain;
   }
-
-    @keyframes circleAround{
-          0% { transform: rotate(0deg) translateX(100px)  ;}
-          100% {transform: rotate(360deg) translateX(10px) ;}
-        }
