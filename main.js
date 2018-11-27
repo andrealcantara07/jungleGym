@@ -67,7 +67,7 @@ class Pokemon {
 
 //--------POKEMON TYRANTRUM-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/tyrantrum.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/tyrantrum.json")
 .then(function (answer){
 
   //let so you can call it later in param
@@ -85,7 +85,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/tyrantrum.json")
 
 //--------POKEMON ENTEI-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/entei.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/entei.json")
 .then(function (answer){
   //let so you can call it later in param
   let name = answer.data.name;
@@ -101,7 +101,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/entei.json")
 
 //--------POKEMON PANGORO-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/pangoro.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/pangoro.json")
 .then(function (answer){
 
   //let so you can call it later in param
@@ -129,7 +129,7 @@ button5.addEventListener('click', swit5);
 
 //--------POKEMON CHARMANDER-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/charmander.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/charmander.json")
 .then(function (answer){
   //let so you can call it later in param
   let name = answer.data.name;
@@ -145,7 +145,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/charmander.json")
 
 //--------POKEMON SMEARGLE-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/smeargle.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/smeargle.json")
 .then(function (answer){
   //console.log(answer);
   //let so you can call it later in param
@@ -163,7 +163,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/smeargle.json")
 
 //--------POKEMON DEWGONG-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/dewgong.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/dewgong.json")
 .then(function (answer){
   //console.log(answer);
   //let so you can call it later in param
@@ -191,7 +191,7 @@ button1.addEventListener('click', swit1);
 
 //--------POKEMON NIDORINO-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/nidorino.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/nidorino.json")
 .then(function (answer){
 
   //let so you can call it later in param
@@ -209,7 +209,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/nidorino.json")
 
 //--------POKEMON STEELIX-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/steelix.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/steelix.json")
 .then(function (answer){
   //console.log(answer);
   //let so you can call it later in param
@@ -227,7 +227,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/steelix.json")
 
 //--------POKEMON TOTODILE-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/totodile.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/totodile.json")
 .then(function (answer){
 
   //let so you can call it later in param
@@ -256,7 +256,7 @@ button2.addEventListener('click', swit2);
 
 //--------POKEMON GRENINJA-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/greninja.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/greninja.json")
 .then(function (answer){
   //console.log(answer);
   //let so you can call it later in param
@@ -274,7 +274,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/greninja.json")
 
 //--------POKEMON MAGEARNA-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/magearna.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/magearna.json")
 .then(function (answer){
 
   //let so you can call it later in param
@@ -292,7 +292,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/magearna.json")
 
 //--------POKEMON ARIADOS-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/ariados.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/ariados.json")
 .then(function (answer){
   //let so you can call it later in param
   let name = answer.data.name;
@@ -318,7 +318,7 @@ button3.addEventListener('click', swit3);
 
 //--------POKEMON TYPHLOSION-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/typhlosion.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/typhlosion.json")
 .then(function (answer){
   //console.log(answer);
   //let so you can call it later in param
@@ -336,7 +336,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/typhlosion.json")
 
 //--------POKEMON VOLCANION-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/volcanion.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/volcanion.json")
 .then(function (answer){
   //console.log(answer);
   //let so you can call it later in param
@@ -354,7 +354,7 @@ axios.get("http://fizal.me/pokeapi/api/v2/name/volcanion.json")
 
 //--------POKEMON SOLGALEO-----
 
-axios.get("http://fizal.me/pokeapi/api/v2/name/solgaleo.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/solgaleo.json")
 .then(function (answer){
 
   //let so you can call it later in param
