@@ -1,3 +1,5 @@
+//ATTACHES TO THE BUTTON EVENT LISTENER
+
 let button1 = document.getElementById('one');
 let button2 = document.getElementById('two');
 let button3 = document.getElementById('three');
@@ -115,6 +117,7 @@ axios.get("https://fizal.me/pokeapi/api/v2/name/pangoro.json")
 });
 let counter = 0;
 function swit5(){
+  //MODULO SIGN RESETS ARRAY LENGTH BACK TO ZERO ONCE ITS AT THE END OF ARRAY
   counter = (counter + 1) % Evelynn.pokemon.length;
   Evelynn.pokemon[counter].display();
 }
