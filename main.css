@@ -1,5 +1,4 @@
 
-
 html{
   background: url(forest4.jpg);
   background-size: cover;
@@ -20,6 +19,7 @@ html{
   padding: 10px;
   border-radius: 20px;
 border: 10px groove black;
+box-shadow: #000000ab 5px;
 }
 .circle{
   width: 150px;
@@ -29,9 +29,13 @@ border: 10px groove black;
   border: 10px red groove;
   position: relative;
   filter: opacity(100%);
+<<<<<<< HEAD
 
   padding: 1px;
 
+=======
+  padding: 1px;
+>>>>>>> 78ec882154e864e48dff20a8ba26dbdda72d0b7c
   box-shadow: 5px 5px 1px 1px #00000066;
 
 }
@@ -44,37 +48,45 @@ border: 10px groove black;
   top: 80px;
   left: 400px;
   border: 10px groove black;
-
-
 }
+
+
+
+
 #one{
   left: 140px;
   opacity: 1;
+  animation: circleAround 4s;
 }
 #two{
   left: 80px;
   top: 45px;
   opacity: 1;
+  animation: circleAround 4s;
  }
 #three{
   top: 90px;
   left: 140px;
   opacity: 1;
+  animation: circleAround 4s;
  }
 #four{
   bottom: 500px;
   left: 735px;
   opacity: 1;
+  animation: circleAround 4s;
  }
 #five{
   bottom:250px;
   left: 735px;
   opacity: 1;
+  animation: circleAround 4s;
 }
 #six{
   bottom: 625px;
   left: 795px;
   opacity: 1;
+    animation: circleAround 4s;
 }
 
 .Rectangle{
@@ -84,10 +96,12 @@ border: 10px groove black;
   border: 4px groove black;
   position: relative;
 
+
 }
 #Name{
-  top: 50px;
-  left: 170px;
+  top: 30px;
+  left: 140px;
+  width:200px;
 }
 #Ability{
   top: 215px;
@@ -113,7 +127,7 @@ border: 10px groove black;
   width:150px;
   height: 150px;
   position: absolute;
-  top: 110px;
+  top: 100px;
   left:165px;
   border: 4px groove white;
 }
@@ -152,9 +166,18 @@ border: 10px groove black;
     height: 150px;
     width: 150px;
     object-fit: contain;
+<<<<<<< HEAD
 }
 #logo img {
   position: relative;
   height: 100px;
   width: auto;
   border-radius: none;
+=======
+  }
+
+    @keyframes circleAround{
+          0% { transform: rotate(0deg) translateX(100px)  ;}
+          100% {transform: rotate(360deg) translateX(10px) ;}
+        }
+>>>>>>> 78ec882154e864e48dff20a8ba26dbdda72d0b7c
